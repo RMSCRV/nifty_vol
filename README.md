@@ -1,6 +1,6 @@
 # NIFTY Options Volatility Research
 
-Five notebooks that study the implied volatility of **NIFTY 50 options** using free data from NSE India. They cover the volatility smile and skew, term structure, Greeks-based risk, straddle/strangle strategies, and implied volatility against model-based forecasts.
+Five self-contained Jupyter notebooks that study the implied volatility of **NIFTY 50 options** using free data from NSE India. They cover the volatility smile and skew, term structure, Greeks-based risk, straddle/strangle strategies, and implied volatility against model-based forecasts.
 
 ## Project description
 
@@ -21,6 +21,7 @@ Five notebooks that study the implied volatility of **NIFTY 50 options** using f
 ## Requirements
 
 Python 3, run in Jupyter. Each notebook installs its own dependencies with `!pip`. Across the five, the packages are `requests` or `curl_cffi`, `pandas`, `numpy`, `scipy`, `matplotlib`, `yfinance`, `arch` and `scikit-learn`.
+
 
 ## Known limitations
 - **Live notebooks are snapshots.** Smile, term structure and risk reflect the moment you run them, so results change daily.
